@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3DF5D523B8F79500E2AAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3DF5D423B8F79500E2AAEF /* AppDelegate.swift */; };
+		FF3DF5D723B8F79500E2AAEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3DF5D623B8F79500E2AAEF /* SceneDelegate.swift */; };
+		FF3DF5D923B8F79500E2AAEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3DF5D823B8F79500E2AAEF /* ViewController.swift */; };
+		FF3DF5DC23B8F79500E2AAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3DF5DA23B8F79500E2AAEF /* Main.storyboard */; };
+		FF3DF5DE23B8F79800E2AAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3DF5DD23B8F79800E2AAEF /* Assets.xcassets */; };
+		FF3DF5E123B8F79800E2AAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3DF5DF23B8F79800E2AAEF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF3DF5D123B8F79500E2AAEF /* Get Distance Between Two Points.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Distance Between Two Points.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3DF5D423B8F79500E2AAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3DF5D623B8F79500E2AAEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF3DF5D823B8F79500E2AAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3DF5DB23B8F79500E2AAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3DF5DD23B8F79800E2AAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3DF5E023B8F79800E2AAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3DF5E223B8F79800E2AAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3DF5CE23B8F79500E2AAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3DF5C823B8F79400E2AAEF = {
+			isa = PBXGroup;
+			children = (
+				FF3DF5D323B8F79500E2AAEF /* Get Distance Between Two Points */,
+				FF3DF5D223B8F79500E2AAEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3DF5D223B8F79500E2AAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DF5D123B8F79500E2AAEF /* Get Distance Between Two Points.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3DF5D323B8F79500E2AAEF /* Get Distance Between Two Points */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DF5D423B8F79500E2AAEF /* AppDelegate.swift */,
+				FF3DF5D623B8F79500E2AAEF /* SceneDelegate.swift */,
+				FF3DF5D823B8F79500E2AAEF /* ViewController.swift */,
+				FF3DF5DA23B8F79500E2AAEF /* Main.storyboard */,
+				FF3DF5DD23B8F79800E2AAEF /* Assets.xcassets */,
+				FF3DF5DF23B8F79800E2AAEF /* LaunchScreen.storyboard */,
+				FF3DF5E223B8F79800E2AAEF /* Info.plist */,
+			);
+			path = "Get Distance Between Two Points";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3DF5D023B8F79500E2AAEF /* Get Distance Between Two Points */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3DF5E523B8F79800E2AAEF /* Build configuration list for PBXNativeTarget "Get Distance Between Two Points" */;
+			buildPhases = (
+				FF3DF5CD23B8F79500E2AAEF /* Sources */,
+				FF3DF5CE23B8F79500E2AAEF /* Frameworks */,
+				FF3DF5CF23B8F79500E2AAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get Distance Between Two Points";
+			productName = "Get Distance Between Two Points";
+			productReference = FF3DF5D123B8F79500E2AAEF /* Get Distance Between Two Points.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3DF5C923B8F79400E2AAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fahim Rahman";
+				TargetAttributes = {
+					FF3DF5D023B8F79500E2AAEF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FF3DF5CC23B8F79400E2AAEF /* Build configuration list for PBXProject "Get Distance Between Two Points" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3DF5C823B8F79400E2AAEF;
+			productRefGroup = FF3DF5D223B8F79500E2AAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3DF5D023B8F79500E2AAEF /* Get Distance Between Two Points */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3DF5CF23B8F79500E2AAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3DF5E123B8F79800E2AAEF /* LaunchScreen.storyboard in Resources */,
+				FF3DF5DE23B8F79800E2AAEF /* Assets.xcassets in Resources */,
+				FF3DF5DC23B8F79500E2AAEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3DF5CD23B8F79500E2AAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3DF5D923B8F79500E2AAEF /* ViewController.swift in Sources */,
+				FF3DF5D523B8F79500E2AAEF /* AppDelegate.swift in Sources */,
+				FF3DF5D723B8F79500E2AAEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF3DF5DA23B8F79500E2AAEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3DF5DB23B8F79500E2AAEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3DF5DF23B8F79800E2AAEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3DF5E023B8F79800E2AAEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3DF5E323B8F79800E2AAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3DF5E423B8F79800E2AAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3DF5E623B8F79800E2AAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Get Distance Between Two Points/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Get-Distance-Between-Two-Points";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF3DF5E723B8F79800E2AAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Get Distance Between Two Points/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Get-Distance-Between-Two-Points";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3DF5CC23B8F79400E2AAEF /* Build configuration list for PBXProject "Get Distance Between Two Points" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3DF5E323B8F79800E2AAEF /* Debug */,
+				FF3DF5E423B8F79800E2AAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3DF5E523B8F79800E2AAEF /* Build configuration list for PBXNativeTarget "Get Distance Between Two Points" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3DF5E623B8F79800E2AAEF /* Debug */,
+				FF3DF5E723B8F79800E2AAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3DF5C923B8F79400E2AAEF /* Project object */;
+}
